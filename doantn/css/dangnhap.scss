@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e6e6e6;
+    background-image: url("../anh/phongcanh.jpg");
+    background-repeat: no-repeat;
+}
+.container {
+    width: 100%;
+
+    .login {
+        height: 400px;
+        width: 30%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px;
+        margin-top: 150px;
+        background-color: black;
+        opacity: 0.7;
+
+        .submit {
+            cursor: pointer;
+            padding: 5px;
+            
+            #bntdangnhap {
+                font-size: 18px;
+                color: white;
+                background-color: rgb(255, 153, 0);
+                outline: unset;
+                border: unset;
+                padding: 0 10px;
+                height: 30px;
+                margin: 20px 0;
+                cursor: pointer;
+            }
+        }
+
+        h1 {
+            color: rgb(253, 125, 5);
+            font-size: 50px;
+            margin: 20px;
+        }
+
+        a {
+            color: white;
+            height: 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .input {
+            width: 300px;
+            line-height: 35px;
+            outline: unset;
+            border: unset;
+            font-size: 18px;
+            padding: 0 10px;
+            height: 35px;
+            margin: 20px 0;
+        }
+
+        .loi {
+            color: white;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        .login {
+            width: 50%;
+        }
+    }
+}

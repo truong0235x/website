@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quanlydonhang {
+    display: flex;
+    width: 300px;
+    margin-bottom: 5px;
+    flex-wrap: nowrap;
+
+    .quanly {
+        background-color: #3aa52a;
+        padding: 10px 5px;
+        text-align: center;
+        margin-left: 10px;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+.dangxuat {
+    input {
+        position: absolute;
+        background-color: #3aa52a;
+        padding: 10px 5px;
+        text-align: center;
+        margin-left: 10px;
+        border: unset;
+        cursor: pointer;
+        color: white;
+        top: 0;
+        right: 0;
+    }
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+    thead {
+            padding: 10px;
+
+        tr {
+
+            th {
+                padding: 10px 10px;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            th:nth-child(3) {
+                min-width: 50px;
+                max-width: 300px;
+            }
+
+            th:nth-child(8) {
+                min-width: 50px;
+                max-width: 500px;
+            }
+
+            th:last-child {
+                width: 100px;
+            }
+        }
+    }
+
+    tbody {
+
+        tr {
+
+            td {
+                padding: 10px 10px;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            td:nth-child(3) {
+                min-width: 50px;
+                max-width: 300px;
+            }
+
+            td:nth-child(8) {
+                min-width: 50px;
+                max-width: 500px;
+            }
+            
+            td:last-child {
+                width: 100px;
+            }
+        }
+    }
+}
+
+.page {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: center;
+
+    i {
+        line-height: 30px;
+        color: black;
+    }
+    
+    i:hover {
+        border-radius: 4px;
+        background-color: red;
+        color: white;
+    }
+
+    span {
+        border-radius: 4px;
+        line-height: 30px;
+        text-align: center;
+        margin: 0 10px;
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+        line-height: 30px;
+        text-align: center;
+        margin: 0 10px;
+        width: 30px;
+        height: 30px;
+        color: black;
+    }
+
+    a:hover {
+        border-radius: 4px;
+        background-color: red;
+        color: white;
+    }
+}
+
+.section__iphone__item:hover {
+    border: 1px solid red;
+    padding: 9px 9px;
+
+    .img {
+        padding: 0;
+
+        img {
+            height: 200px;
+        }
+    }
+}

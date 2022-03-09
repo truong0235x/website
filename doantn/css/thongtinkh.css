@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: 85vh;
+}
+
+section table {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+section table th {
+  font-size: 25px;
+  text-align: center;
+}
+
+section table td {
+  margin: 10px 0;
+}
+
+section table td input {
+  outline: unset;
+  height: 35px;
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+section table input[type="submit"] {
+  cursor: pointer;
+  border: unset;
+  -webkit-box-shadow: 0px 1px 1px 1px;
+          box-shadow: 0px 1px 1px 1px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+section table .suatt {
+  text-align: center;
+}
+
+section table .dangxuat {
+  text-align: right;
+}
+
+.thongbao {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+}
+/*# sourceMappingURL=thongtinkh.css.map */

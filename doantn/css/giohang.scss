@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: #e6e6e6;
+    margin-top: 10px;
+    width: 100%;
+    min-height: 100vh;
+
+    .mathang {
+        width: 80%;
+        margin: 15px auto;
+        display: flex;
+        flex-wrap: nowrap;
+
+        .img {
+            width: 100px;
+            height: 100px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .thongtinmathang {
+            padding: 15px 15px;
+            position: relative;
+
+            .dungluong {
+                display: block;
+                margin: 10px 0;
+                width: 50px;
+            }
+
+            span {
+                display: block;
+                width: 800px;
+                height: 110px;
+            }
+
+            .soluong {
+                margin: 5px 0;
+            }
+
+            .gia {
+                margin-bottom: 5px;
+            }
+
+            
+            .trangthai {
+                color: rgb(255, 115, 0);
+            }
+
+            .huy {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                background-color: red;
+                color: white;
+                cursor: pointer;
+
+                p {
+                    box-sizing: unset;
+                    padding: 10px;
+                }
+            }
+
+            
+            .thongbao {
+                display: none;
+                padding: 10px;
+                position: absolute;
+                right: 0px;
+                bottom: 0px;
+                width: 250px;
+                height: 100px;
+                background-color: white;
+
+                input {
+                    position: absolute;
+                    left: 3%;
+                    bottom: 10%;
+                    padding: 5px 10px;
+                    font-size: 15px;
+                    color: white;
+                    background-color: red;
+                    border: unset;
+                    cursor: pointer;
+                }
+
+                .idgh {
+                    display: none;
+                }
+
+                p {
+                    position: absolute;
+                    right: 3%;
+                    bottom: 10%;
+                    padding: 5px 10px;
+                    font-size: 15px;
+                    color: white;
+                    background-color: rgb(12, 224, 23);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .thongtindiachi {
+        width: 80%;
+        margin: 15px auto;
+        text-align: center;
+
+        .diachi {
+            outline: unset;
+            font-size: 15px;
+            padding: 0 10px;
+            width: 700px;
+            height: 30px;
+            margin: 10px 0;
+        }
+
+        .submit {
+            cursor: pointer;
+            height: 35px;
+            padding: 0 10px;
+        }
+    }
+
+    .dienthongtin {
+        text-align: center;
+        color: red;
+        font-size: 16px;
+    }
+}
+
+.thongbao {
+    text-align: center;
+    color: red;
+}
+@media only screen and (max-width: 740px) {
+    section {
+        .mathang {
+            width: 96%;
+        }
+    }
+}
+
+@media only screen and (min-width: 741px) and (max-width: 1024px) {
+    section {
+        .mathang {
+            width: 98%;
+        }
+    }
+}

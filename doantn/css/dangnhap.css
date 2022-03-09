@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #e6e6e6;
+  background-image: url("../anh/phongcanh.jpg");
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 100%;
+}
+
+.container .login {
+  height: 400px;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  margin-top: 150px;
+  background-color: black;
+  opacity: 0.7;
+}
+
+.container .login .submit {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.container .login .submit #bntdangnhap {
+  font-size: 18px;
+  color: white;
+  background-color: #ff9900;
+  outline: unset;
+  border: unset;
+  padding: 0 10px;
+  height: 30px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.container .login h1 {
+  color: #fd7d05;
+  font-size: 50px;
+  margin: 20px;
+}
+
+.container .login a {
+  color: white;
+  height: 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.container .login .input {
+  width: 300px;
+  line-height: 35px;
+  outline: unset;
+  border: unset;
+  font-size: 18px;
+  padding: 0 10px;
+  height: 35px;
+  margin: 20px 0;
+}
+
+.container .login .loi {
+  color: white;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .container .login {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=dangnhap.css.map */

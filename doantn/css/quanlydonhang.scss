@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+    thead {
+            padding: 10px;
+
+        tr {
+
+            th {
+                padding: 10px 10px;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            th:last-child {
+                width: 280px;
+            }   
+        }
+    }
+
+    tbody {
+
+        tr {
+
+            td {
+                padding: 10px 10px;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            td:last-child {
+                width: 280px;
+            }   
+            
+        }
+    }
+}

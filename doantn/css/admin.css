@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.quanlydonhang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  margin-bottom: 5px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.quanlydonhang .quanly {
+  background-color: #3aa52a;
+  padding: 10px 5px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.quanlydonhang .quanly a {
+  text-decoration: none;
+  color: white;
+}
+
+.dangxuat input {
+  position: absolute;
+  background-color: #3aa52a;
+  padding: 10px 5px;
+  text-align: center;
+  margin-left: 10px;
+  border: unset;
+  cursor: pointer;
+  color: white;
+  top: 0;
+  right: 0;
+}
+
+table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table thead {
+  padding: 10px;
+}
+
+table thead tr th {
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table thead tr th:nth-child(3) {
+  min-width: 50px;
+  max-width: 300px;
+}
+
+table thead tr th:nth-child(8) {
+  min-width: 50px;
+  max-width: 500px;
+}
+
+table thead tr th:last-child {
+  width: 100px;
+}
+
+table tbody tr td {
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table tbody tr td:nth-child(3) {
+  min-width: 50px;
+  max-width: 300px;
+}
+
+table tbody tr td:nth-child(8) {
+  min-width: 50px;
+  max-width: 500px;
+}
+
+table tbody tr td:last-child {
+  width: 100px;
+}
+
+.page {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page i {
+  line-height: 30px;
+  color: black;
+}
+
+.page i:hover {
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+}
+
+.page span {
+  border-radius: 4px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 10px;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  color: white;
+}
+
+.page a {
+  text-decoration: none;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 10px;
+  width: 30px;
+  height: 30px;
+  color: black;
+}
+
+.page a:hover {
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+}
+
+.section__iphone__item:hover {
+  border: 1px solid red;
+  padding: 9px 9px;
+}
+
+.section__iphone__item:hover .img {
+  padding: 0;
+}
+
+.section__iphone__item:hover .img img {
+  height: 200px;
+}
+/*# sourceMappingURL=admin.css.map */

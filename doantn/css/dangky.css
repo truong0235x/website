@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+form {
+  width: 100%;
+}
+
+form table {
+  height: 400px;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: black;
+  opacity: 0.8;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+form table #btndangky {
+  font-size: 18px;
+  color: #0f0f0f;
+  background-color: #00ff6a;
+  outline: unset;
+  border: unset;
+  padding: 0 10px;
+  height: 30px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+form table th {
+  color: white;
+  font-size: 20px;
+}
+
+form table .input {
+  width: 300px;
+  line-height: 35px;
+  outline: unset;
+  border: unset;
+  font-size: 18px;
+  padding: 0 10px;
+  height: 35px;
+  margin: 20px 0;
+}
+
+form table a {
+  color: white;
+  height: 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+form table tbody tr .thongbaoloi {
+  color: white;
+}
+
+form table tbody tr .checkusername {
+  color: white;
+  font-size: 14px;
+  display: none;
+  padding: 0 57px;
+}
+
+form table tbody tr .checkmk {
+  color: white;
+  font-size: 14px;
+  display: none;
+  padding: 0 57px;
+}
+
+form table tbody tr .checkmk1 {
+  color: white;
+  font-size: 14px;
+  display: none;
+  padding: 0 57px;
+}
+
+form table tbody tr .checksdt {
+  color: white;
+  font-size: 14px;
+  display: none;
+  padding: 0 57px;
+}
+
+form table tbody tr td #loi {
+  color: white;
+  font-size: 14px;
+}
+/*# sourceMappingURL=dangky.css.map */

@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: #e6e6e6;
+    margin-top: 10px;
+    width: 100%;
+    min-height: 100vh;
+
+    .mathang {
+        width: 80%;
+        margin: 15px auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+
+        .img {
+            width: 200px;
+            height: 200px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .thongtinmathang {
+            padding: 15px 15px;
+
+            .dungluong {
+                font-weight: bold;
+                display: block;
+                margin: 3px 0;
+                width: 50px;
+            }
+
+            span {
+                display: block;
+                width: 800px;
+            }
+
+            .gia {
+                margin-bottom: 3px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .thongtindiachi {
+        width: 80%;
+        margin: 15px auto;
+        text-align: center;
+
+        .diachi {
+            outline: unset;
+            font-size: 15px;
+            padding: 0 10px;
+            width: 700px;
+            height: 30px;
+            margin: 10px 0;
+        }
+
+        .soluong {
+            width: 50px;
+            height: 20px;
+            margin-bottom: 10px;
+            padding: 4px;
+            outline: unset;
+        }
+
+        .submit {
+            cursor: pointer;
+            height: 35px;
+            padding: 0 10px;
+        }
+    }
+
+    .dienthongtin {
+        text-align: center;
+        color: red;
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 740px) {
+    section {
+        .mathang {
+            width: 100%;
+
+            .img {
+                width: 30%;
+
+                img {
+                    width: 98%;
+                    margin: 50%;
+                    transform: translate(-50%,-50%);
+                }
+            }
+
+            .thongtinmathang {
+                width: 70%;
+                padding: 5px;
+
+                span {
+                    width: 100%;
+                    height: unset;
+                }
+            }
+        }
+
+        .thongtindiachi {
+            width: 100%;
+
+            .diachi {
+                width: 90%;
+            }
+
+            .submit {
+                display: block;
+                position: fixed;
+                width: 100vw;
+                bottom: 0px;
+                height: 50px;
+                background-color: yellow;
+                border: unset;
+                color: red;
+                text-align: center;
+                padding: 12px;
+                z-index: 5;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 741px) and (max-width: 1024px) {
+    section {
+        .mathang {
+            width: 100%;
+
+            .img {
+                width: 30%;
+
+                img {
+                    width: 200px;
+                    margin: 50%;
+                    transform: translate(-50%,-50%);
+                }
+            }
+
+            .thongtinmathang {
+                width: 70%;
+                margin-bottom: 10px;
+
+                span {
+                    width: 100%;
+                }
+            }
+        }
+
+        .thongtindiachi {
+            width: 100%;
+
+            .diachi {
+                width: 90%;
+            }
+        }
+    }
+}
